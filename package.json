@@ -1,0 +1,25 @@
+{
+  "name": "employe_tracker",
+  "version": "1.0.0",
+  "description": "HR system to manage employees",
+  "main": "emplyee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "employe_tracker"
+  },
+  "keywords": [
+    "Node",
+    "sql",
+    "inquirer"
+  ],
+  "author": "Tochiskool",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.0.0-beta.2",
+    "inquirer": "^9.2.16",
+    "nodemon": "^3.1.0"
+  }
+}
