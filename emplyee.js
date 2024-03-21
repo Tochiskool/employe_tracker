@@ -19,5 +19,16 @@ var connection = mysql.createConnection({
   connection.connect(function(err) {
     if (err) throw err;
     console.log("connected as id " + connection.threadId + "\n");
-    connection.end();
+    askQuestions();
   });
+
+const askQuestionsuestion = await inquirer.prompt([
+    {
+        type:"input",
+        name: "name",
+        message:"Please select your department",
+        choices:[
+            "Admin","Sales","Accounting"
+        ]
+    }
+])
